@@ -13,6 +13,7 @@ html {
   justify-content: center;
   align-items: center;
   inline-size: 1200px;
+  padding: 0 30px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -217,6 +218,7 @@ ol {
 
 .more-button {
   width: calc(100% - 4px);
+  margin-top: 30px;
   margin-left: 3px;
 }
 
@@ -262,7 +264,7 @@ ol {
   overflow-y: scroll;
 }
 
-.content__list-item {
+.content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -289,6 +291,10 @@ ol {
 }
 
 .content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active {
   background-color: #545050;
 }
 
