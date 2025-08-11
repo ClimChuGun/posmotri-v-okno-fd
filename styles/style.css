@@ -64,7 +64,6 @@ ol {
   gap: 0 30px;
   padding: 0 30px;
   width: 100%;
-  height: 534px;
   overflow-y: auto;
 }
 
@@ -99,11 +98,11 @@ ol {
 .result__video-container > video {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .content__video-card-thumbnail {
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
   width: 100%;
   height: 103px;
@@ -116,16 +115,16 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-size: 18px;
+  font-size: inherit;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 22px;
   margin-bottom: 2px;
 }
 
 .search-form__textfield {
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 25px;
   color: #fff;
   border-radius: 0;
   border: none;
@@ -134,15 +133,12 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   background-color: transparent;
-  width: 225px;
-  height: 27px;
 }
 
-.search-form__textfield::placeholder {
+.search-form__textfield::placeholder { 
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
-  letter-spacing: -1px;
+  line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -180,7 +176,7 @@ ol {
   margin-left: 5px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 22px;
   border-bottom: 1px solid transparent;
 }
 
@@ -205,9 +201,9 @@ ol {
   border: 1px solid #fff;
   box-sizing: border-box;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 21.6px;
+  line-height: 22px;
   bottom: 2px;
   cursor: pointer;
 }
@@ -238,7 +234,7 @@ ol {
 
 .title {
   margin-bottom: 24px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -250,7 +246,7 @@ ol {
 }
 
 .content__accent {
-  opacity: 0.5;
+  color: #545050;
 }
 
 .content__list {
@@ -270,7 +266,6 @@ ol {
 
 .content__card-link {
   display: block;
-  overflow: hidden;
   text-decoration: none;
   box-sizing: border-box;
   color: #fff;
@@ -302,7 +297,6 @@ ol {
   display: grid;
   align-items: start;
   grid-template-columns: 196px 194px;
-  height: 103px;
 }
 
 .content__video-card-description {
@@ -317,7 +311,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
