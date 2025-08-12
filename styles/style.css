@@ -122,11 +122,13 @@ ol {
 }
 
 .search-form__textfield {
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   color: #fff;
   border-radius: 0;
+  width: 225px;
   border: none;
   outline: none;
   box-sizing: border-box;
@@ -136,7 +138,6 @@ ol {
 }
 
 .search-form__textfield::placeholder { 
-  font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
@@ -180,7 +181,7 @@ ol {
   border-bottom: 1px solid transparent;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -194,6 +195,9 @@ ol {
 
 .button {
   position: relative;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
   width: 194px;
   height: 34px;
   background-color: transparent;
@@ -201,7 +205,6 @@ ol {
   border: 1px solid #fff;
   box-sizing: border-box;
   color: #fff;
-  font-size: 16px;
   font-weight: 700;
   line-height: 22px;
   bottom: 2px;
